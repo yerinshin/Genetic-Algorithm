@@ -27,4 +27,4 @@ youtube 구독자 수에 대한 수입에 관한 데이터를 그래프로 만�
 <br>
 <br>
 
-![](images/result1.PNG)
+![](image/result1.PNG)
