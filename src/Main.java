@@ -4,11 +4,9 @@ public class Main {
     public static int[] initA(){
         Random r = new Random();
         int[] a = new int[4];
-        System.out.printf("a 후보해? : ");
         for (int i = 0; i < a.length; i++) {
             a[i] = r.nextInt(31+1);
             System.out.printf("%d", a[i]);
-            System.out.printf(" ");
         }
         System.out.println();
         return a;
@@ -17,11 +15,8 @@ public class Main {
     public static int[] initB() {
         Random r = new Random();
         int[] b = new int[4];
-        System.out.printf("b 후보해? : ");
         for(int i=0; i<b.length; i++) {
             b[i] = r.nextInt(31+1);
-            System.out.printf("%d", b[i]);
-            System.out.printf(" ");
         }
         System.out.println();
         return b;
