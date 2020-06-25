@@ -25,6 +25,30 @@ youtube 구독자 수에 대한 수입에 관한 데이터를 그래프로 만�
 |66|138|
 |70|152|
 <br>
-<br>
+<Br>
 
-![](image/result1.PNG)
+## 결과창
+<br>
+- 첫번째 실행<Br>
+  
+![](image/result1.png)
+
+<br>
+ - 두번째 실행<br>
+  
+![](image/result2.png)
+
+<br>
+ - 세번째 실행<br>
+  
+![](image/result3.png)
+    
+ #### -> 계산된 회귀선 : y = 2x + 10  
+ 
+ <br><br>
+## 데이터 산점도와 계산된 회귀선(2x+10)의 그래프
+<Br>
+  
+![](image/graph.png)
+
+
