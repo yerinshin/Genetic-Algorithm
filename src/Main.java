@@ -6,9 +6,7 @@ public class Main {
         int[] a = new int[4];
         for (int i = 0; i < a.length; i++) {
             a[i] = r.nextInt(31+1);
-            System.out.printf("%d", a[i]);
         }
-        System.out.println();
         return a;
     } //a의 후보해 4개 선택 
 
@@ -18,7 +16,6 @@ public class Main {
         for(int i=0; i<b.length; i++) {
             b[i] = r.nextInt(31+1);
         }
-        System.out.println();
         return b;
     } //b의 후보해 4개 선택
 
@@ -30,7 +27,7 @@ public class Main {
         for (int i = 0; i < x.length; i++) {
             yhat = a*x[i]+b;
             gap = y[i]-yhat;
-            mse += gap * gap;
+            mse += gap * gap; //(y-yhat)의 제곱
         }
 
         return mse;
